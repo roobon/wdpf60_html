@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h3>Form 1: Registration</h3>
+    <form>
+        Name: <br>
+        <input type="text" name="fullname" placeholder="Enter your name"><br>
+        Address: <br>
+        <textarea name="address" cols="25" rows="5" placeholder="Enter your Address"></textarea><br>
+        Gender: <br>
+        Male: <input type="radio" name="gender" value="m" >
+        Female: <input type="radio" name="gender" value="f" >
+        Others: <input type="radio" name="gender" value="o" ><br>
+        District: <br>
+        <select name="district">
+            <option>Select one</option>
+            <option>Dhaka</option>
+            <option>Barisal</option>
+            <option>Jhalokathi</option>
+            <option>Noakhali</option>
+            <option>Chandpur</option>
+        </select><br>
+        <input type="submit" name="submit" value="SEND DATA">
+    </form>
+    <hr>
+
+    <h3>Form2: Login</h3>
+    <form action="">
+        <input type="email" placeholder="Enter email"><br>
+        <input type="password" placeholder="Enter password"><br>
+        <input type="submit" value="LOGIN">
+    </form>
+    <hr>
+    <h3>Form3: Signup</h3>
+    <form action="">
+        <input type="text" name="name" placeholder="Enter Name"><br>
+        Gender: 
+        Male <input type="radio" name="gender">
+        Female <input type="radio" name="gender"><br>
+        Date of Birth: 
+        <input type="date"> <br>
+        <input type="checkbox"> Agree with Terms and Conditions <br>
+        <input type="submit" value="REGISTER"><input type="reset">
+    </form>
+
+    <hr>
+    <h3>Form4: Big Form</h3>
+    <form action="">  
+        <fieldset>
+            <legend>Login Info</legend>
+            <input type="email" placeholder="Enter email"><br>
+            <input type="password" name="password" placeholder="password"><br>
+            <input type="password" name="repeat_password" placeholder="repeat password"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Contact Info</legend>
+            <input type="text" name="name" placeholder="Enter your name"><br>
+            <input type="number" name="phone" placeholder="Enter phone number"><br>
+            <textarea name="address" id="" cols="30" rows="10" placeholder="Enter your address"></textarea>
+        </fieldset>
+        <input type="submit" >
+    </form>
+    <hr>
+
+    <h3>Form5: Tour Order</h3>
+    <form action="">
+        <input type="text" name="fullname" placeholder="Enter Name"><br>
+        <input type="number" name="age" placeholder="Enter age"><br>
+        <input type="text" name="phone" placeholder="Enter phone"><br>
+        <textarea name="address" cols="30" rows="10" placeholder="Enter Address"></textarea><br>
+        <label for="">Places you want to visit:</label><br>
+        <select name="places"  multiple>
+            <option value="">Select your choices</option>
+            <optgroup label="Dhaka">
+                <option value="">Nandan Park</option>
+                <option value="">Safari Park</option>
+            </optgroup>
+            <optgroup label="Manikganj">
+                <option value="">Padma Resort</option>
+                <option value="">Hilsha Ghat</option>
+            </optgroup>
+        </select><br>
+        <input type="submit" name="submit" value="ORDER">
+    </form>
+
+
+
+
+
+
+
+
+    <br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

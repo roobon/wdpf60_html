@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <style>
+        td, th {
+            border: 1px solid rgb(255, 0, 55);
+        }
+        table {
+            border-collapse: collapse;
+        }
+        thead {
+            background-color: aquamarine;
+            height: 50px;
+        }
+        tfoot {
+            background-color: rgb(5, 62, 43);
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Table 1</h3><hr>
+    <table style="border: 1px solid blue;">
+        <tr>
+            <td>ABC</td>
+        </tr>
+    </table>
+
+    <h3>Table 2</h3><hr>
+    <table style="border: 1px solid blue; width: 300px;">
+        <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>Details</td>
+        </tr>
+    </table>
+
+    <h3>Table 3</h3><hr>
+    <table style="border: 1px solid blue; width: 300px;">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Details</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Masud</td>
+            <td>Mirpur</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Nazmul</td>
+            <td>Banani</td>
+        </tr>
+    </table>
+
+    <h3>Table 4</h3><hr>
+    <table style="width: 300px; height: 200px;">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td colspan="2">3</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td colspan="3">6</td>  
+        </tr>
+        <tr>
+            <td colspan="4">9</td>
+            
+        </tr>
+        <tr>
+            <td colspan="2">13</td>
+            <td colspan="2">15</td>
+            
+        </tr>
+    </table>
+
+    <h3>Table 5</h3><hr>
+    <table style="width: 350px; height: 250px;">
+        <tr>
+            <td rowspan="2">A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            
+            <td>F</td>
+            <td rowspan="3">G</td>
+            <td>H</td>
+        </tr>
+        <tr>
+            <td>I</td>
+            <td>J</td>
+            
+            <td>L</td>
+        </tr>
+        <tr>
+            <td>M</td>
+            <td>N</td>
+            
+            <td>P</td>
+        </tr>
+    </table>
+    <hr>
+    <h3>Table 6</h3>
+    <table>
+        <caption>Booklist with Price</caption>
+        <colgroup>
+            <col style="background-color: rgb(0, 13, 255); font-size: 26px;">
+            <col style="background-color: green;">
+            <col style="background-color: rgb(234, 140, 24);">
+        </colgroup>
+        <tr>
+            <th>SN</th>
+            <th>Book Name</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>HTML Advanced</td>
+            <td>$30</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>JavaScript Basics</td>
+            <td>$50</td>
+        </tr>
+    </table>
+    <hr>
+    <h3>Table 7</h3>
+    <table style="width: 400px;height: 300px;">
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Div Element</title>
+    <style>
+        .menu {
+           width: 200px; 
+           background-color: aqua;
+           height: 600px;
+           float: left;
+           padding: 20px;
+        }
+        .content {
+            float: left;
+            background-color: rgb(248, 170, 75);
+            width: 800px;
+            height: 600px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <p><a href="home.html" target="main">Home</a></p>
+        <p><a href="about.html" target="main">About</a></p>
+        <p><a href="contact.html" target="main">Contact</a></p>
+
+    </div>
+    <div class="content">
+        <iframe src="home.html" name="main" frameborder="0" width="800" height="600"></iframe>
+    </div>
+    
+</body>
+</html>

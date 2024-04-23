@@ -1,0 +1,21 @@
+.box1{
+    background-color: #444fe8;
+    height: 200px;
+    width: 200px;
+}
+.box2{
+    background-color: hsl(300, 55%, 31%);
+    height: 200px;
+    width: 200px;
+}
+.box3{
+    background-color: rgb(167, 147, 78);
+    height: 200px;
+    width: 200px;
+}
+
+.box4{
+    background-color: rgba(59, 188, 93, 0.5);
+    height: 200px;
+    width: 200px;
+}
